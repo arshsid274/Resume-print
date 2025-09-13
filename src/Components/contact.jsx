@@ -39,7 +39,7 @@ function Contact(){
   
     </div>
     <h4 className='text-xs text-[#124f44]' > Email</h4>
-         <h1 className='   pl-1  ml-1 text-[12px] p-data break-words'>mohammadarsh573380@gmail.com</h1>
+         <h1 className='   pl-1   text-[12px] p-data break-words'>mohammadarsh573380@gmail.com</h1>
          </div>
 
 

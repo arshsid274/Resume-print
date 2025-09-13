@@ -10,7 +10,7 @@ function App() {
   return (
     <>
  <div className='grid grid-cols-6  '>
-  <div className='col-span-2  p-4 mt-4 '>
+  <div className='col-span-2   mt-4 '>
     <Contact/>
     
 
@@ -124,12 +124,48 @@ function App() {
 </a>
           </div>
 
+          <div className='mt-4'>
+<div className=' flex'>
+         <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faLanguage}  /></h1>
+         <h1 className='uppercase text-base Headings text-[#124f44] pl-2'>Language</h1>
+         </div>
+        <div className='flex  mt-2 subtitle-headings text-base'>
+  <h2 className='uppercase Headings'>English</h2>
+  <div className='flex gap-1 items-center'>
+<h2 className='mx-auto ml-5 '>Advance  </h2>
+ <div className='rounded-full ml-4 bg-[#3cb371] w-2 h-2'></div>
+  <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+   <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+    <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+     <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+      <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+  </div>
+  
+</div>
+
+ <div className='flex  subtitle-headings text-base'>
+  <h2 className='uppercase Headings'>Hindi</h2>
+  <div className='flex gap-1 items-center ml-6'>
+<h2 className='mx-auto ml-5 '>Advance  </h2>
+ <div className='rounded-full ml-4 bg-[#3cb371] w-2 h-2'></div>
+  <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+   <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+    <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+     <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+      <div className='rounded-full bg-[#3cb371] w-2 h-2'></div>
+  </div>
+  
+</div>
+    </div>
+
           <div className='mt-8'>
   <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faFileZipper} /></h1>
          <h1 className='uppercase text-xl Headings text-[#124f44] pl-2'>Certifications</h1>
          </div>
 </div>
+
+
       <div>
 
  <h2 className='subtitle-headings-Bold text-base mt-2'>Banquet Mangement (FullStack)</h2>
@@ -156,7 +192,7 @@ function App() {
    
   </div>
   <div className='col-span-4  p-4 '>
-    <h1 className='text-5xl heading uppercase'>Mohammd Arsh</h1>
+    <h1 className='text-5xl heading uppercase'>Mohammad Arsh</h1>
     <div className='bg-[#8ebda7]  rounded-2xl mt-2'>
       <p className='uppercase text text-xl pl-2 pt-2'>Full Stack Developer | Web</p>
       <p className='uppercase text text-xl pl-2 pb-2'>Developer | Javascript | Mern</p>
@@ -167,7 +203,17 @@ function App() {
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faUser}  /></h1>
          <h1 className='uppercase text-xl Headings text-[#124f44] pl-2'>Summary</h1>
          </div>
-           <p className='text-xs mt-2 p-data'>Energetic Full Stack Developer with hands-on experience in building dynamic and responsive web applications using <span className='font-bold'>JavaScript, React, Node.js, Express, and MongoDB</span> . Completed 2 internships in web development, gaining strong skills in frontend and backend development. Experienced in API integration, CRUD operations, and SEO-friendly website design. Passionate about exploring <span className='font-bold'>cybersecurity and AI applications</span>, with a strong foundation in problem-solving and secure coding practices.</p>
+         <p className='text-xs mt-2 p-data'>
+  Full Stack Developer with hands-on experience in building dynamic and responsive web applications using 
+  <span className='font-bold'> JavaScript, React, Node.js, Express, and MongoDB</span>. Completed 2 internships in web development, 
+  gaining strong skills in frontend and backend development. Experienced in 
+  <span className='font-bold'> API integration, CRUD operations, and SEO-friendly, mobile responsive</span> website design. 
+  In addition to technical expertise, developed <span className='font-bold'>excellent communication, problem-solving, and collaboration skills </span> 
+  through prior professional experience in customer support and BPO roles. Skilled at working in 
+  <span className='font-bold'> fast-paced, team-oriented environments</span>, effectively translating client needs into technical solutions. 
+  Passionate about exploring <span className='font-bold'>cybersecurity and AI applications</span>, with a strong foundation in secure coding practices 
+  and professional teamwork.
+</p>
 
     </div>
 
@@ -189,7 +235,7 @@ function App() {
            <div>
               <ul className="list-disc ml-4 text-xs p-data ">
     <li>Built a <span className='font-bold'>mobile-responsive UI</span> for Buddha Avenue Banquet App and  enhancing user experience across devices.</li>
-    <li>Contributed to <span className='font-bold'>backend development </span>with <span className='font-bold'>role-based CRUD operations </span>role-based CRUD operations and implemented <span className='font-bold'>dynamic Node.js APIs</span> for decryption, signing.</li>
+    <li>Contributed to <span className='font-bold'>backend development </span>with <span className='font-bold'>role-based CRUD operations </span> and implemented <span className='font-bold'>dynamic Node.js APIs</span> for decryption, signing.</li>
     <li>Assisted in <span className='font-bold'>optimizing and creating static websites</span> for local businesses, including <span className='font-bold'
     >SEO enhancements </span>to improve visibility.</li>
     <li>Gained valuable experience in <span className='font-bold'>React, Angular, API integration, UI development, and SEO,</span> while also supporting the team lead in mentoring two interns.</li>
@@ -209,18 +255,19 @@ function App() {
 
            <div>
               <ul className="list-disc ml-4 text-xs p-data ">
-    <li>Designed and developed <span className='font-bold'>custom UI</span>  for main website sections (Home, About, Services, Contact) to <span className='font-bold'>enhance user experience</span> and <span className='font-bold'>increase conversion rates</span>.</li>
-    <li>Implemented robust <span className='font-bold'>form validation</span> for <span className='font-bold'>username and password authentication</span>.</li>
-    <li>Built a dynamic PubChem search bar and <span className='font-bold'>integrated API-driven data</span> into components using props drilling.</li>
-    <li><span className='font-bold'>Integrated data</span> from multiple resources into a single application using <span className='font-bold'>REST APIs</span> for seamless functionality.</li>
-    <li><span className='font-bold'>Integrated data</span> from multiple resources into a single application using <span className='font-bold'>REST APIs</span> for seamless functionality.</li>
-    <li><span className='font-bold'>Integrated data</span> from multiple resources into a single application using <span className='font-bold'>REST APIs</span> for seamless functionality.</li>
+    <li>Designed and developed <span className='font-bold'>custom UI components</span> for core website sections (Home, About, Services, Contact) using <span className="font-bold">React.js</span> and  <span>Tailwind CSS</span>  to enhance user experience and responsiveness..</li>
+    <li>Implemented robust <span className='font-bold'>form validation logic </span> for secure username/password authentication, ensuring data accuracy and preventing invalid submissions.</li>
+    <li>Built a <span className='font-bold'> dynamic PubChem search bar</span>  and integrated <span className='font-bold'></span> PubChem API data into reusable React components through props drilling.</li>
+    <li>Developed <span className='font-bold'> data tables</span>  with PubChem formulas and reference data for advanced chemical information visualization.</li>
+    <li>Enhanced UI/UX with <span className='font-bold'>interactive features</span> including hover effects, scroll-to functionality, sidebar navigation, and responsive layouts</li>
+    <li>Performed <span className='font-bold'>code optimization, design fixes, and bug resolution</span> to improve maintainability, scalability, and performance.</li>
+    <li>Collaborated in an <span className='font-bold'>Agile environment</span> with version control using <span className='font-bold'>Git (branches, merges, stashing, remote pushes)</span>.</li>
   </ul>
            </div>
 
     </div>
 
-    <div className=' mt-10'>
+    <div className=' mt-8'>
       <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faUserGraduate}  /></h1>
          <h1 className='uppercase text-base Headings text-[#124f44] pl-2'>Education</h1>
@@ -255,39 +302,7 @@ function App() {
 
     </div>
 
-    <div className='mt-4'>
-<div className=' flex'>
-         <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faLanguage}  /></h1>
-         <h1 className='uppercase text-base Headings text-[#124f44] pl-2'>Language</h1>
-         </div>
-        <div className='flex  mt-2 subtitle-headings text-base'>
-  <h2 className='uppercase Headings'>English</h2>
-  <div className='flex gap-1 items-center'>
-<h2 className='mx-auto ml-41 '>Advance  </h2>
- <div className='rounded-full ml-4 bg-[#3cb371] w-4 h-4'></div>
-  <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-   <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-    <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-     <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-      <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-  </div>
-  
-</div>
-
- <div className='flex  subtitle-headings text-base'>
-  <h2 className='uppercase Headings'>Hindi</h2>
-  <div className='flex gap-1 items-center'>
-<h2 className='mx-auto ml-47 '>Advance  </h2>
- <div className='rounded-full ml-4 bg-[#3cb371] w-4 h-4'></div>
-  <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-   <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-    <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-     <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-      <div className='rounded-full bg-[#3cb371] w-4 h-4'></div>
-  </div>
-  
-</div>
-    </div>
+    
     
     <div className=' mt-8'>
       <div className=' flex'>
