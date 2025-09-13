@@ -8,7 +8,7 @@ function Contact(){
       <img  className="h-[150px]" src={Profilepic}  alt="Mohammad Arsh - Full Stack Developer specializing in React, Node.js, and MongoDB" />
 
 
- <div className=' mt-8 break-inside-avoid'>
+ <div className=' mt-4 break-inside-avoid'>
 
       <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faEnvelope} /></h1>

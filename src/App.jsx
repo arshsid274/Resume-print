@@ -16,7 +16,7 @@ function App() {
 
 
 <div>
-  <div className='mt-4'>
+  <div className='mt-6'>
   <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faRocket} /></h1>
          <h1 className='uppercase text-xl Headings text-[#124f44] pl-2'>Skills</h1>
@@ -59,7 +59,7 @@ function App() {
           '><FontAwesomeIcon className='mr-2' icon={faMicrochip}/>Hardware & Tools</h1>
           <div  className='flex gap-1 mt-2 text-xs font-bold justify-center'>
            <h3 className='rounded-sm px-1 py-1 bg-[#8ebda7]'>Esp32</h3>
-          <h3 className='rounded-sm px-1 py-1 bg-[#8ebda7]'>Github</h3>
+          <h3 className='rounded-sm px-1 py-1 bg-[#8ebda7]'>Git</h3>
            <h3 className='rounded-sm px-1 py-1 bg-[#8ebda7]'>Postman</h3>
           <h3 className='rounded-sm px-1 py-1 bg-[#8ebda7]'>Seo</h3>
          
@@ -81,7 +81,7 @@ function App() {
          </div>
           
 </div>
-  <div className=' mt-8'>
+  <div className=' mt-6'>
       <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faFileZipper} /></h1>
          <h1 className='uppercase text-xl Headings text-[#124f44] pl-2'>Projects</h1>
@@ -89,9 +89,9 @@ function App() {
 
          <div>
  <h2 className='subtitle-headings-Bold text-base mt-2'>Banquet Mangement (FullStack)</h2>
-         <p className='text-xs p-data'>Developed an full stack App Frontend and Backend with rest Api . Contributed in Pharmaceutical Data Analytics Tools in cretaing a dynamic Ui components api calling </p>
-        <a href="https://github.com/arshsid274/Budha-Avenue-Frontend" className="text-blue-600 underline text-sm">
-  https://github.com/arshsid274/<br />Budha-Avenue-Frontend
+         <p className='text-xs p-data'>Developed a full-stack MERN App Frontend and Backend with rest Api . Contributed in Pharmaceutical Data Analytics Tools in cretaing a dynamic Ui components api calling </p>
+        <a href="https://github.com/arshsid274/Budha-Avenue-Frontend" className="text-blue-600 underline text-sm break-words ">
+  https://github.com/arshsid274/Budha-Avenue-Frontend
 </a>
          </div>
 
@@ -101,15 +101,15 @@ function App() {
           <div className='mt-2'>
  <h2 className='subtitle-headings-Bold text-base '>Vaslai</h2>
          <p className='text-xs p-data'>Contributed in Pharmaceutical Data Analytics Tools in cretaing a dynamic Ui components api calling and real-time data integration . By creating Components props drilling creating a hero page , login page ,search bar  </p>
-        <a href="https://github.com/arshsid274/Budha-Avenue-Frontend" className="text-blue-600 underline text-sm">
-  https://github.com/arshsid274/<br />Budha-Avenue-Frontend
+        <a href="https://github.com/arshsid274/Budha-Avenue-Frontend" className="text-blue-600 underline text-sm break-words ">
+  https://github.com/arshsid274/Budha-Avenue-Frontend
 </a>
          </div>
 
 
 
 
-        <div className='mt-8'>
+        <div className='mt-6'>
   <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md  text-center items-center flex' ><FontAwesomeIcon icon={faFileZipper} /></h1>
          <h1 className='uppercase text-xl Headings text-[#124f44] pl-2'>Personal Projects</h1>
@@ -118,13 +118,13 @@ function App() {
       <div>
 
  <h2 className='subtitle-headings-Bold text-base mt-2'>Banquet Mangement (FullStack)</h2>
-         <p className='text-xs p-data'>Developed an full stack App Frontend and Backend with rest Api . Contributed in Pharmaceutical Data Analytics Tools in cretaing a dynamic Ui components api calling </p>
-        <a href="https://github.com/arshsid274/Budha-Avenue-Frontend" className="text-blue-600 underline text-sm">
-  https://github.com/arshsid274/<br />Budha-Avenue-Frontend
+         <p className='text-xs p-data'>Developed a full-stack MERN App Frontend and Backend with rest Api . Contributed in Pharmaceutical Data Analytics Tools in cretaing a dynamic Ui components api calling </p>
+        <a href="https://github.com/arshsid274/Budha-Avenue-Frontend" className="text-blue-600 underline text-sm break-words ">
+  https://github.com/arshsid274/Budha-Avenue-Frontend
 </a>
           </div>
 
-          <div className='mt-4'>
+          <div className='mt-6'>
 <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faLanguage}  /></h1>
          <h1 className='uppercase text-base Headings text-[#124f44] pl-2'>Language</h1>
@@ -158,7 +158,7 @@ function App() {
 </div>
     </div>
 
-          <div className='mt-8'>
+          <div className='mt-6'>
   <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faFileZipper} /></h1>
          <h1 className='uppercase text-xl Headings text-[#124f44] pl-2'>Certifications</h1>
@@ -207,9 +207,9 @@ function App() {
   Full Stack Developer with hands-on experience in building dynamic and responsive web applications using 
   <span className='font-bold'> JavaScript, React, Node.js, Express, and MongoDB</span>. Completed 2 internships in web development, 
   gaining strong skills in frontend and backend development. Experienced in 
-  <span className='font-bold'> API integration, CRUD operations, and SEO-friendly, mobile responsive</span> website design. 
+  <span className='font-bold'> REST API Development,API integration, CRUD operations, and SEO-friendly, mobile responsive,Agile Development</span> website design. 
   In addition to technical expertise, developed <span className='font-bold'>excellent communication, problem-solving, and collaboration skills </span> 
-  through prior professional experience in customer support and BPO roles. Skilled at working in 
+  which translated into efficient requirement gathering and collaboration in software projects through prior professional experience in customer support and BPO roles. Skilled at working in 
   <span className='font-bold'> fast-paced, team-oriented environments</span>, effectively translating client needs into technical solutions. 
   Passionate about exploring <span className='font-bold'>cybersecurity and AI applications</span>, with a strong foundation in secure coding practices 
   and professional teamwork.
@@ -217,7 +217,7 @@ function App() {
 
     </div>
 
-    <div className=' mt-8'>
+    <div className=' mt-6'>
       <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faUserTie}  /></h1>
          <h1 className='uppercase text-base Headings text-[#124f44] pl-2'>Experience</h1>
@@ -267,7 +267,7 @@ function App() {
 
     </div>
 
-    <div className=' mt-8'>
+    <div className=' mt-6'>
       <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faUserGraduate}  /></h1>
          <h1 className='uppercase text-base Headings text-[#124f44] pl-2'>Education</h1>
@@ -279,7 +279,7 @@ function App() {
 
           <div className='text-sm flex justify-between'>
   <div><h2 className=' subtitle-headings text-base'>Bachelor of Computer Application (BCA)</h2>
-  <h2 className=' subtitle-headings text-base'>Overall GPA 7.87 </h2>
+  <h2 className=' subtitle-headings text-base'>Overall GPA 7.87/10  </h2>
   </div>
   <div><h2 className='font-sans text-xs p-data '>03/2025 - Present</h2></div>
 </div>
@@ -293,7 +293,7 @@ function App() {
 
             <div className='text-sm flex justify-between'>
   <div><h2 className=' subtitle-headings text-base'>Bachelors Of Commerce (Bcom)</h2>
-    <h2 className=' subtitle-headings text-base'>Overall GPA 7.87 </h2>
+    <h2 className=' subtitle-headings text-base'>Overall GPA 6.94/10 </h2>
     </div>
   <div><h2 className='font-sans text-xs p-data'>06/2025 - 12/2020</h2></div>
 </div>
@@ -304,7 +304,7 @@ function App() {
 
     
     
-    <div className=' mt-8'>
+    <div className=' mt-6'>
       <div className=' flex'>
          <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faUserTie}  /></h1>
          <h1 className='uppercase text-base Headings text-[#124f44] pl-2'>Other Experiences</h1>
