@@ -1,4 +1,4 @@
-import Profilepic from './assets/Profilepic-circle2.png'
+import Contact from './Components/contact'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faEnvelope, faPhone, faAt, faLocationDot, faGlobe , faUserTie, faFileZipper, faUserGraduate,faRocket,faLanguage,faDesktop,faGear,faMicrochip,faToolbox} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn,faReact } from '@fortawesome/free-brands-svg-icons'
@@ -10,81 +10,10 @@ function App() {
   return (
     <>
  <div className='grid grid-cols-6  '>
-  <div className='col-span-2  p-4 mt-4 break-inside-avoid'>
+  <div className='col-span-2  p-4 mt-4 '>
+    <Contact/>
     
-<img  className="h-[150px]" src={Profilepic}  alt="Mohammad Arsh - Full Stack Developer specializing in React, Node.js, and MongoDB" />
 
-
- <div className=' mt-8 break-inside-avoid'>
-      <div className=' flex'>
-         <h1 className='bg-[#8ebda7] rounded-md p-[2px] px-[4px]' ><FontAwesomeIcon icon={faEnvelope} /></h1>
-         <h1 className='uppercase text-xl Headings text-[#124f44] pl-2'>Contacts</h1>
-         </div>
-
-         
-
-        
-           
-
-    </div>
-
-<div>
-   <div className=' flex mt-2'>
-    <div>
-  <h1 className=' rounded-md ml-2 py-0' ><FontAwesomeIcon icon={faPhone} className='text-[#4d9c77] text-sm py-0' /></h1>
-  <h4 className='text-xs text-[#124f44]' > Phone</h4>
-    </div>
-       
-         <h1 className='   mt-3 text-[12px] p-data '>+91-9335596042</h1>
-         </div>
-
-         <div className=' flex '>
-       
-          <div>
-  <h1 className=' rounded-md ml-2' ><FontAwesomeIcon icon={faAt} className='text-[#4d9c77] text-sm' /></h1>
-  <h4 className='text-xs text-[#124f44]' > Email</h4>
-    </div>
-         <h1 className='   mt-3 ml-1 text-[12px] p-data break-words'>mohammadarsh573380@<br />gmail.com</h1>
-         </div>
-
-
-         <div className=' flex '>
-        
-          <div>
- <h1 className=' rounded-md ml-2' ><FontAwesomeIcon icon={faLinkedinIn} className='text-[#4d9c77] text-sm' /></h1>
-  <h4 className='text-xs text-[#124f44]' >LinkedIn</h4>
-    </div>
-         <h1 className='  mt-3  pl-1 text-[12px] p-data '>arsh-sid-b645b62b2</h1>
-         </div>
-
-
-         <div className=' flex '>
-        
-          <div>
- <h1 className=' rounded-md  ml-2' ><FontAwesomeIcon icon={faGithub} className='text-[#4d9c77] text-sm' /></h1>
-  <h4 className='text-xs text-[#124f44]' >GitHub</h4>
-    </div>
-         <h1 className=' mt-3  pl-1 text-[12px] p-data '>arshsid274</h1>
-         </div>
-
-
-         <div className=' flex ml-2 '>
-         
-         <div>
- <h1 className=' rounded-md  ml-2' ><FontAwesomeIcon icon={faLocationDot} className='text-[#4d9c77] text-sm' /></h1>
-  <h4 className='text-xs text-[#124f44]' >Address</h4>
-    </div>
-         <h1 className='  mt-3 pl-1 text-[12px] p-data '>U 35/2 DLF phase<br />3,Gurgaon,Haryana,122002</h1>
-         </div>
-
-
-         <div className=' flex '>
-         <h1 className=' rounded-md ' ><FontAwesomeIcon icon={faGlobe} className='text-[#4d9c77] text-sm' /></h1>
-         <h1 className='   pl-1 text-[12px] p-data break-words '> <a href="https://vercel.com/arshs-projects-ee90e7e4/my-vite-app" className="text-blue-600 underline text-sm">
-  https://vercel.com/arshs-projects<br />-ee90e7e4/my-vite-app
-</a></h1>
-         </div>
-</div>
 
 <div>
   <div className='mt-4'>
